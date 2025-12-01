@@ -17,11 +17,11 @@ function Intro(){
                         <a href="#about" className="btn link-item" >En savoir plus</a>
                         <a href="#portfolio" className="btn link-item" >Portfolio</a>
                     </div>
-                    <div className="home-img" >
+                    {/* <div className="home-img" >
                         <div className="img-box" >
-                            <img src="" alt="profile image" />
+                            <img src="#" alt="profile image" />
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </section>
