@@ -1,9 +1,67 @@
 
 
+header{
+    width: 100%;
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px;
+
+}
 
 
+.nav-toggle{
+    display: none;
+}
+
+li{
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    color: #333;
+    font-size: 21px;
+}
+
+li a:hover{
+    color: aliceblue;
+    transition: all 0.3s;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+ul li{
+    margin-right: 12px;
+}
 
 
+@media(max-width: 760px){
+    .nav{
+        display: none;
+    }
+
+    .nav-toggle{
+        display: block;
+    }
+
+    .nav.open{
+        display: block;
+        position: relative;
+        top: 50px;
+        left: 0;
+    }
+
+    .nav.open ul{
+        flex-direction: column;
+    }
+
+}
 
 
 
